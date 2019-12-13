@@ -13,7 +13,7 @@ namespace :greeting do
 end
 
 task :console do 
-  Pry.start
+  pry!
 end
 
 
