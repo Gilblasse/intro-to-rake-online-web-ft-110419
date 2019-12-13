@@ -13,7 +13,7 @@ namespace :greeting do
 end
 
 task :console do 
-  !pry
+  binding.pry
 end
 
 
