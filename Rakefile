@@ -18,7 +18,7 @@ end
 
 namespace :db do 
   
-  task :migrate do 
+  task :migrate => :enviorment do 
     
   end
   
